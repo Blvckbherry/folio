@@ -1,44 +1,79 @@
-/* Reset some default styling */
-*{
-    margin: 0px;
-    
-}
-
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    color: white;
 }
 
-/* Style for the header */
 header {
-    background-color: #4CAF50; /* Green background */
-    color: white;             /* White text */
-    padding: 10px;           /* Some padding */
-    text-align: center;       /* Center align text */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0B3D91; /* Deep blue-black */
 }
 
-/* Style for the paragraph */
-p {
-    color: #333;             /* Dark gray text color */
-    line-height: 1.6;        /* Line height for better readability */
-    padding: 0 20px;         /* Padding on the sides */
+nav {
+    display: flex;
+    gap: 15px;
 }
 
-/* Style for the button */
-button {
-    background-color: #008CBA; /* Blue background */
-    color: white;              /* White text */
-    border: none;              /* No border */
-    padding: 10px 20px;       /* Padding */
-    text-align: center;        /* Center align text */
-    text-decoration: none;     /* No underline */
-    display: inline-block;     /* Inline-block display */
-    font-size: 16px;           /* Font size */
-    margin: 10px 2px;          /* Margins */
-    cursor: pointer;           /* Pointer cursor on hover */
-    border-radius: 5px;        /* Rounded corners */
+nav a, .download-cv {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
-button:hover {
-    background-color: #005f6a; /* Darker blue when hovered */
+.download-cv {
+    background-color: #FFF;
+    color: #0B3D91;
+}
+
+.logo {
+    width: 100px;
+}
+
+.section {
+    padding: 50px 20px;
+}
+
+.section-1 {
+    background-color: #0B3D91; /* Deep blue-black */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-text {
+    width: 60%;
+}
+
+.intro-image {
+    width: 30%;
+}
+
+.intro-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section-2 {
+    background-color: #1C5DC1; /* Light blue-black */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-image {
+    width: 50%;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-text {
+    width: 50%;
 }
