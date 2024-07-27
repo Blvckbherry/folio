@@ -1,4 +1,9 @@
 /* Reset some default styling */
+*{
+    margin: 0px;
+    
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
