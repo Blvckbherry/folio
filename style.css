@@ -1,0 +1,39 @@
+/* Reset some default styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the header */
+header {
+    background-color: #4CAF50; /* Green background */
+    color: white;             /* White text */
+    padding: 10px;           /* Some padding */
+    text-align: center;       /* Center align text */
+}
+
+/* Style for the paragraph */
+p {
+    color: #333;             /* Dark gray text color */
+    line-height: 1.6;        /* Line height for better readability */
+    padding: 0 20px;         /* Padding on the sides */
+}
+
+/* Style for the button */
+button {
+    background-color: #008CBA; /* Blue background */
+    color: white;              /* White text */
+    border: none;              /* No border */
+    padding: 10px 20px;       /* Padding */
+    text-align: center;        /* Center align text */
+    text-decoration: none;     /* No underline */
+    display: inline-block;     /* Inline-block display */
+    font-size: 16px;           /* Font size */
+    margin: 10px 2px;          /* Margins */
+    cursor: pointer;           /* Pointer cursor on hover */
+    border-radius: 5px;        /* Rounded corners */
+}
+
+button:hover {
+    background-color: #005f6a; /* Darker blue when hovered */
+}
