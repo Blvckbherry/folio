@@ -165,7 +165,9 @@ section{
     background-color: #111827;
 }
 
-.about-header, .skill-header{
+.about-header, 
+.skill-header,
+.experience-header{
     width: 12%;
     text-align: center;
     margin: 1rem auto 4rem;
@@ -214,13 +216,42 @@ h2{
     text-align: center;
 }
 
+.skill-icons{
+    width: 100%;
+    display: flex;
+    padding: 4rem 0;
+    justify-content: space-around;
+}
+
 .skill-icons img{
+    width: 5%;
     background-color: transparent;
 }
 
+.skill-icons-2{
+    width: 100%;
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-around;
+}
 
+.skill-icons-2 img{
+    width: 5%;
+    background-color: transparent;
+}
 
+.experience-section{
+    width: 100%;
+    background-color: #111827;
+}
 
+.experience-section p{
+    color: #fff;
+    font-size: 1.4rem;
+    margin-top: -1.8rem;
+    font-weight: 300;
+    text-align: center;
+}
 
 
 
