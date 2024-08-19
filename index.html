@@ -3,41 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Stephen E. Adortsu</title>
 </head>
 <body>
-    <div class="header">
+    <header>
+        <a href="#">
+            <img src="/images/logo.png" class="main-logo">
+        </a>
         <nav>
-            <a href="#">
-                <img src="/images/logo.png" class="logo">
-            </a>
             <ul>
-                <li><a href="#">About Me</a></li>
-                <span> | </span>
+                <li><a href="#about-section">About Me</a></li>
                 <li><a href="#">Projects</a></li>
-                <span> | </span>
-                <li><a href="#">Testimonials</a></li>
-                <span> | </span>
+                <li><a href="#">Testimonies</a></li>
                 <li><a href="#">Services</a></li>
-            </ul>
-            <button type="button">HIRE ME</button>
+                <li><a href="#">Contact</a></li>
+            </ul>            
         </nav>
-    </div>
-    <div class="hero-section">
-        <div class="hero-text">
-            <h1>I am Stephen Elikplim <span>Adortsu</span></h1>
+        <button type="button" class="main-btn">HIRE ME</button>
+    </header>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm Stephen Elikplim <span>Adortsu</span></h1>
             <p>I'm a full stack developer (React.js & Node.js) with a focus on creating 
                 (and occasionally designing) exceptional digital experiences that are fast, 
                 accessible, visually appealing, and responsive. 
                 Even though I have been creating web applications for over 3 years, 
-                I still love it as if it was something new.
-            </p>
-            <button>DOWNLOAD CV</button>
+                I still love it as if it was something new.</p>
+            <div class="hero-icons">
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#" class="download-cv-btn">Download CV</a>
+            </div>
         </div>
-        <div class="image">
-            <img src="images/potrait.jpg" class="potrait">
+        <div class="hero-image">
+            <img src="/images/potrait.jpg">
         </div>
-    </div>
+    </section>
+    <section class="about-section" id="about-section">
+        <div class="about-header">
+            <h2>About Me</h2>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/images/potrait1.png">
+            </div>
+            <div class="about-text">
+                <h3>Curious about me? Here you have it:</h3>
+                <p>I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). 
+                    I am very enthusiastic about bringing the technical and visual aspects of digital products to life. 
+                    User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.
+                    <br><br>
+                    I began my journey as a web developer in 2015, and since then, I've continued to grow and evolve as a developer, 
+                    taking on new challenges and learning the latest technologies along the way. 
+                    Now, in my early thirties, 7 years after starting my web development journey, 
+                    I'm building cutting-edge web applications using modern technologies such as Next.js, 
+                    TypeScript, Nestjs, Tailwindcss, Supabase and much more.
+                    <br><br>
+                    I am very much a progressive thinker and enjoy working on products end to end, 
+                    from ideation all the way to development.
+                    <br><br>
+                    When I'm not in full-on developer mode, you can find me hovering around on twitter or on indie hacker, 
+                    witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where 
+                    I share tech-related bites and build in public, or you can follow me on GitHub.
+                    <br><br>
+                    Finally, some quick bits about me;
+                    <br>
+                    <ul>
+                        <li>Bsc. Physics (Computing)</li>
+                        <li>Full-Stack Developement</li>
+                    </ul>
+                    <br>
+                    One last thing, I'm available for freelance work, 
+                    so feel free to reach out and say hello! I promise I don't bite 😉
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="skill-section">
+        <div class="skill-header">
+            <h2>Skills</h2>
+        </div>
+        <p>The skills, tools and technologies I am really good at:</p>
+        <div class="skill-icons">
+            
+        </div>
+    </section>
 </body>
 </html>
+
+
+<!--
+<div class="header">
+    <nav>
+        <a href="#">
+            <img src="/images/logo.png" class="logo">
+        </a>
+        <ul>
+            <li><a href="#">About Me</a></li>
+            <span> | </span>
+            <li><a href="#">Projects</a></li>
+            <span> | </span>
+            <li><a href="#">Testimonials</a></li>
+            <span> | </span>
+            <li><a href="#">Services</a></li>
+        </ul>
+        <div>
+            <i class="fa-regular fa-bars">
+                
+            </i>
+        </div>
+        <button type="button">HIRE ME</button>
+    </nav>
+</div>
+<div class="hero-section">
+    <div class="hero-text">
+        <h1>I am Stephen Elikplim <span>Adortsu</span></h1>
+        <p>I'm a full stack developer (React.js & Node.js) with a focus on creating 
+            (and occasionally designing) exceptional digital experiences that are fast, 
+            accessible, visually appealing, and responsive. 
+            Even though I have been creating web applications for over 3 years, 
+            I still love it as if it was something new.
+        </p>
+        <div class="hero-text-1">
+            <div class="location">
+                <img src="">
+                <p>Accra, Ghana</p>
+                <div class="social-icons">
+                    <img src="">
+                    <img src="">
+                    <img src="">
+                </div>
+            </div>
+            <button>DOWNLOAD CV</button>
+        </div>
+    </div>
+    <div class="image">
+        <img src="images/potrait.jpg" class="potrait">
+    </div>
+</div>
+-->
