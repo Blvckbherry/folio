@@ -250,7 +250,7 @@ h2{
     background-color: #111827;
 }
 
-.experience-section p{
+#p1{
     color: #fff;
     font-size: 1.4rem;
     margin-top: -1.8rem;
@@ -310,9 +310,40 @@ h2{
     align-items: center;
 }
 
+.experience-tile{
+    margin: 4rem 8rem;
+    display: flex;
+    gap: 2rem;
+    border-radius: .8rem;
+    background-color: #1F2937;
+    box-shadow: 0 0 30px #030712;
+}
 
+.tile-logo{
+    padding: 3rem;
+}
 
+.tile-logo h3{
+    text-align: center;
+}
 
+.tile-text{
+    padding: 2rem;
+}
+
+.tile-text h3{
+    padding-bottom: 1rem;
+}
+
+.tile-text ul li{
+    font-weight: 200;
+    line-height: 1.8rem;
+}
+
+.tile-date{
+    width: 28rem;
+    padding: 2rem;
+}
 
 
 
