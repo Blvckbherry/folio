@@ -255,20 +255,22 @@ h2{
     text-align: center;
 }
 
+footer{
+    text-align: center;
+}
+
 .footer-p1{
     color: #fff;
     font-size: 1.4rem;
     margin-top: -1.8rem;
     padding-bottom: 1rem;
     font-weight: 300;
-    text-align: center;
 }
 
 .footer-p2{
     padding: .6rem 0;
     font-size: 2rem;
     font-weight: 900;
-    text-align: center;
 }
 
 .footer-contact{
@@ -276,33 +278,28 @@ h2{
 }
 
 .footer-p3{
-    text-align: center;
     padding-bottom: 2rem;
 }
 
 .footer-icons{
     display: inline-block;
     width: 15%;
-    align-content: center;
     border: 1px solid orange;
-    
 }
 
 .footer-icons a{
-    display: inline-flex;
-    justify-content: center;
+    display: inline-block;
     align-items: center;
     background-color: transparent;
     font-size: 2rem;
-    margin-left: 3rem;
     color: #fff;
+    padding: 0 1rem;
 }
 
 .footer-bottom{
     padding: 1rem;
     text-align: center;
     background-color: #111827;
-    border: 1px solid red;
 }
 
 .footer-bottom p{
