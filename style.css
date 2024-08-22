@@ -268,7 +268,7 @@ footer{
 }
 
 .footer-p2{
-    padding: .6rem 0;
+    padding: .4rem 0;
     font-size: 2rem;
     font-weight: 900;
 }
@@ -278,20 +278,19 @@ footer{
 }
 
 .footer-p3{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .footer-icons{
     display: inline-block;
     width: 15%;
-    border: 1px solid orange;
+    margin-bottom: 5rem;
 }
 
 .footer-icons a{
-    display: inline-block;
     align-items: center;
     background-color: transparent;
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: #fff;
     padding: 0 1rem;
 }
@@ -365,6 +364,24 @@ footer{
     background-color: #1F2937;
     box-shadow: 0 0 30px #030712;
 }
+
+.testimonies-section{
+    width: 100%;
+    background-color: #111827;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
