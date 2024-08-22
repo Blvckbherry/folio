@@ -169,10 +169,7 @@ section{
     background-color: #111827;
 }
 
-.about-header, 
-.skill-header,
-.experience-header,
-.footer-header{
+.section-header{
     width: 12%;
     text-align: center;
     margin: 1rem auto 4rem;
@@ -347,7 +344,30 @@ h2{
     padding: 2rem;
 }
 
+#projects-header-p{
+    color: #fff;
+    font-size: 1.4rem;
+    margin-top: -1.8rem;
+    font-weight: 300;
+    text-align: center;
+}
 
+.projects-image{
+    width: 50%;
+}
+
+.projects-image img{
+    width: 600px;
+}
+
+.projects-tile{
+    margin: 4rem 8rem;
+    display: flex;
+    gap: 2rem;
+    border-radius: .8rem;
+    background-color: #1F2937;
+    box-shadow: 0 0 30px #030712;
+}
 
 
 
