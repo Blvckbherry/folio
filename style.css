@@ -303,11 +303,13 @@ h2{
 
 .footer-bottom{
     padding: 1rem;
+    text-align: center;
     background-color: #111827;
+    border: 1px solid red;
 }
 
 .footer-bottom p{
-    align-items: center;
+    text-align: center;
 }
 
 .experience-tile{
